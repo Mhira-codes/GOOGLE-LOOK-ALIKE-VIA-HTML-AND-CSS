@@ -1,0 +1,161 @@
+                        img {
+                            width: 50px;
+                            height: 50px;
+                            border-radius: 25px;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                            margin-top: 1%;
+                        }
+                        
+                        a {
+                            text-decoration: none;
+                            color: black;
+                            font-size: 18px;
+                            margin-left: 10px;
+                            margin-right: 10px;
+                        }
+                        
+                        .menu-items {
+                            float: right;
+                        }
+                        
+                        a.links :hover {
+                            text-decoration: underline !important;
+                        }
+                        
+                        * {
+                            margin: 0;
+                            padding: 0;
+                        }
+                        
+                        body {
+                            font-family: sans-serif;
+                        }
+                        
+                        .down-items img {
+                            width: 300px;
+                            height: 200px;
+                            position: absolute;
+                            top: 30%;
+                            left: 39%;
+                        }
+                        
+                        input {
+                            position: absolute;
+                            top: 60%;
+                            left: 30%;
+                            width: 40%;
+                            height: 45px;
+                            margin-top: 20px;
+                            border-radius: 30px;
+                            outline: none;
+                            border: 1px solid lightgray;
+                        }
+                        
+                         ::placeholder {
+                            padding-left: 40px;
+                            font-size: 15px;
+                            color: gray;
+                            font-weight: 300;
+                        }
+                        
+                        #mic-logo {
+                            width: 15px;
+                            height: 20px;
+                            position: absolute;
+                            top: 63%;
+                            left: 65%;
+                        }
+                        
+                        .fa-search {
+                            position: absolute;
+                            top: 63%;
+                            left: 65%;
+                        }
+                        
+                        .btn {
+                            position: absolute;
+                            top: 76%;
+                            left: 40%;
+                            width: 100%;
+                        }
+                        
+                        #btn-search {
+                            width: 10%;
+                            display: inline-block;
+                            height: 35px;
+                        }
+                        
+                        #btn-lazy {
+                            width: 10%;
+                            display: inline-block;
+                            height: 35px;
+                            margin-left: 10px;
+                        }
+                        
+                        .btn-google {
+                            font-size: 16px;
+                            outline: none;
+                            background-color: rgb(255, 248, 248);
+                            border: 1px solid lightgray;
+                            border-radius: 2px;
+                        }
+                        
+                        .btn-google:hover {
+                            box-shadow: 2px 2px 2px 2px lightgray;
+                            border: 2px solid rgb(211, 197, 197);
+                            cursor: pointer;
+                        }
+                        
+                        input:hover {
+                            box-shadow: 2px 2px 2px 2px lightgray;
+                            cursor: default;
+                        }
+                        
+                        #photo {
+                            width: 80px;
+                        }
+                        
+                        #map {
+                            width: 80px;
+                        }
+                        
+                        #drive {
+                            width: 60px;
+                        }
+                        
+                        .menu-bar {
+                            display: flex;
+                            margin-left: 30px;
+                            box-sizing: border-box;
+                            border: 2px solid rgb(225, 240, 255);
+                            width: 20%;
+                            position: absolute;
+                            top: 10%;
+                            left: 71%;
+                        }
+                        
+                        .google-icons {
+                            margin-left: 25px;
+                        }
+                        
+                        p {
+                            padding-left: 30px;
+                            padding-bottom: 5px;
+                        }
+                        
+                        .google-icons:hover {
+                            border: 1px solid lightgray;
+                            box-shadow: 2px 2px 2px 2px lightgray;
+                            padding: 10px;
+                            border-radius: none;
+                        }
+                        
+                        .menu-bar:hover {
+                            border: 2px solid lightgray;
+                            box-shadow: 2px 2px 2px 2px lightslategray;
+                        }
+                        
+                        .fa-bars:hover .menu-bar {
+                            display: block;
+                        }
